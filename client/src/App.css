@@ -1,0 +1,30 @@
+.navbar-brand, .nav-link {
+  font-family: 'Forum', cursive;
+}
+
+.jumbotron {
+  background: url("paper_background.png");
+}
+
+.jumbotron .display-3 {
+  font-family: 'CyrillicGoth', arial;
+  text-align: center;
+  color: white;
+}
+
+.jumbotron .lead {
+  font-family: 'Forum', cursive;
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+.search-form, .card-header {
+  font-family: 'Forum', cursive;
+  text-align: center;
+  font-size: 24px;
+}
+
+.form-control, .btn-primary, .btn-success, .card-body, .btn-danger {
+  font-family: 'Forum', cursive;
+}

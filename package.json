@@ -1,0 +1,28 @@
+{
+  "name": "ny-times-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennbono/NY-Times-React.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennbono/NY-Times-React/issues"
+  },
+  "homepage": "https://github.com/jennbono/NY-Times-React#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.5",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.12"
+  }
+}
