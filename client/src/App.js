@@ -3,7 +3,9 @@ import './App.css';
 import Navbar from '../src/components/Navbar';
 import Jumbotron from '../src/components/Jumbotron';
 import SearchForm from '../src/components/SearchForm';
-import Delete from '../src/components/Delete';
+import SearchForms from '../src/components/SearchForms';
+import SavedArticles from '../src/components/SavedArticles';
+import SavedArticle from '../src/components/SavedArticle';
 import Results from '../src/components/Results';
 
 class App extends Component {
@@ -17,7 +19,7 @@ class App extends Component {
         <Jumbotron />
 
         {/* Search Form */}
-       <SearchForm />
+       <SearchForms />
         {/* End of Search Form */}
         <br />
         <br />
@@ -45,7 +47,7 @@ class App extends Component {
                 <div class="card-header">
                   Saved Articles
                 </div>
-                <Delete />
+                <SavedArticle />
               </div>
             </div>
           </div>

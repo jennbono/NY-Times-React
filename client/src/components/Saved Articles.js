@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import SavedArticle from "SavedArticle";
 
-class Delete extends Component {
+class SavedArticles extends Component {
 	render() {
 		return (
 			<div className="card-body">
@@ -12,4 +13,4 @@ class Delete extends Component {
 	}
 }
 
-export default Delete;
+export default SavedArticles;
