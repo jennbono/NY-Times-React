@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "../../Utils/API";
+import API from "./../Utils/API";
 
 class SavedArticle extends Component {
 	render() {
@@ -7,7 +7,7 @@ class SavedArticle extends Component {
 			<div className="card-body">
 				<h5 className="card-title">Title and Date of Article</h5>
 				<p className="card-text">Summary of Article goes here...</p>
-				<a href="#" className="btn btn-danger" onClick={this.deleteArticle}>Delete</a>
+				<button className="btn btn-danger" onClick={this.deleteArticle}>Delete</button>
 			</div>
 		);
 	}

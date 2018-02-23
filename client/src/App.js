@@ -19,7 +19,7 @@ class App extends Component {
         <Jumbotron />
 
         {/* Search Form */}
-       <SearchForms />
+       <SearchForms  />
         {/* End of Search Form */}
         <br />
         <br />
@@ -27,8 +27,8 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div class="card">
-                <div class="card-header">
+              <div className="card">
+                <div className="card-header">
                   Results
                 </div>
                   <Results />
@@ -43,8 +43,8 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div class="card">
-                <div class="card-header">
+              <div className="card">
+                <div className="card-header">
                   Saved Articles
                 </div>
                 <SavedArticle />
