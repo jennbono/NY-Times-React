@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SavedArticle from "SavedArticle";
+import SavedArticle from "./SavedArticle";
 
 class SavedArticles extends Component {
 	render() {

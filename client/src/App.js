@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from '../src/components/Navbar';
 import Jumbotron from '../src/components/Jumbotron';
-import SearchForm from '../src/components/SearchForm';
 import SearchForms from '../src/components/SearchForms';
 import SavedArticles from '../src/components/SavedArticles';
 import SavedArticle from '../src/components/SavedArticle';

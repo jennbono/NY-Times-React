@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import API from "./../Utils/API";
+import API from "../Utils/API";
 
 class SavedArticle extends Component {
 	render() {
